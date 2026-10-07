@@ -25,4 +25,4 @@
 ---
 
 ## 3. Judul Penelitian
-> **"Klasifikasi Hasil Pertandingan Top Lima Liga Eropa Musim 2025/2026 Berdasarkan Statistik Pertandingan Menggunakan Random Forest dengan Optimasi Hyperparameter Bayesian"**
+> **"Klasifikasi Hasil Pertandingan Top 5 Liga Eropa Menggunakan Random Forest Dengan Optimasi Hyperparameter Bayesian"**
