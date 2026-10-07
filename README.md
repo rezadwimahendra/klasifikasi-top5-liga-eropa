@@ -1,69 +1,49 @@
 # Klasifikasi Hasil Pertandingan Top Lima Liga Eropa Musim 2025/2026 Berdasarkan Statistik Pertandingan Menggunakan Random Forest dengan Optimasi Hyperparameter Bayesian
 
-[![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
-[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.3-orange.svg)](https://scikit-learn.org/)
-[![Optuna](https://img.shields.io/badge/Optuna-Bayesian%20Opt-blueviolet.svg)](https://optuna.org/)
-[![Sinta](https://img.shields.io/badge/Sinta%20SOTA-Akreditasi%20Sinta%202--4-green.svg)](docs/03_Tabel_State_of_the_Art_10_Artikel.md)
+Proyek ini bertujuan untuk memprediksi hasil akhir pertandingan sepak bola (*Home Win*, *Draw*, *Away Win*) pada Top 5 Liga Eropa (Premier League, La Liga, Bundesliga, Serie A, dan Ligue 1) musim 2025/2026 berdasarkan statistik pertandingan.
 
-Repository ini dibuat untuk memenuhi tugas mata kuliah **Pemrograman Mobile Lanjut / Klasifikasi**, yang mencakup 7 tahapan pengerjaan utama dari pencarian dataset hingga komit dan push ke GitHub.
+Metode utama yang digunakan adalah **Random Forest Classifier** yang dioptimasi menggunakan **Bayesian Optimization (Optuna)** untuk mencari kombinasi hyperparameter terbaik.
 
 ---
 
-## 📌 Ringkasan 7 Poin Tugas
+## 📁 Struktur Folder Proyek
 
-1. **Mencari Dataset Public:** 
-   - Dataset pertandingan sepak bola Top 5 Liga Eropa musim 2025/2026 (`data/data_top_5_liga.csv` - 1.752 baris, 22 atribut).
-2. **Persiapan Lingkungan Pengembangan Lokal:** 
-   - Konfigurasi Python 3.10, Virtual Environment (`.venv`), OpenCode / VS Code, Hermes CLI, Git, serta pustaka `pandas`, `scikit-learn`, `optuna`, `xgboost`, `jupyter`.
-3. **Menentukan Topik Penelitian:** 
-   - Klasifikasi Prediksi Hasil Pertandingan Sepak Bola Top 5 Liga Eropa Berdasarkan Statistik Pertandingan.
-4. **Menentukan Judul Penelitian:** 
-   - *"Klasifikasi Hasil Pertandingan Top Lima Liga Eropa Musim 2025/2026 Berdasarkan Statistik Pertandingan Menggunakan Random Forest dengan Optimasi Hyperparameter Bayesian"*
-5. **Menentukan Pertanyaan Penelitian (Rumusan Masalah):** 
-   - RQ1 (Kinerja Random Forest Baseline), RQ2 (Peningkatan Akurasi pasca Optimasi Bayesian), dan RQ3 (Fitur Statistik Match paling dominan / Feature Importance).
-6. **Studi Literatur 10 Artikel & Tabel Penelitian Terdahulu (State of the Art Sinta 2-4, 5 Tahun Terakhir):** 
-   - Dokumentasi lengkap matriks perbandingan 10 artikel jurnal bereputasi **terakreditasi Sinta (Sinta 2, 3, dan 4) kurun waktu 2021–2025** pada berkas [`docs/03_Tabel_State_of_the_Art_10_Artikel.md`](docs/03_Tabel_State_of_the_Art_10_Artikel.md).
-7. **Commit dan Push GitHub:** 
-   - Pengelolaan repositori versi kontrol menggunakan Git.
-
----
-
-## 📁 Struktur Direktori Repositori
 ```text
-.
-├── .gitignore                      # Berkas pengecualian Git
-├── README.md                       # Dokumentasi utama proyek & tugas
-├── requirements.txt                # Berkas dependensi Python
+klasifikasi-top5-liga-eropa/
+├── README.md
+├── requirements.txt
 ├── data/
-│   ├── data_top_5_liga.csv         # Dataset publik pertandingan Top 5 Liga Eropa
-│   └── README.md                   # Dokumentasi variabel dataset
+│   ├── data_top_5_liga.csv
+│   └── README.md
 ├── docs/
 │   ├── 01_Topik_dan_Judul_Penelitian.md
 │   ├── 02_Rumusan_Masalah_dan_Pertanyaan.md
-│   ├── 03_Tabel_State_of_the_Art_10_Artikel.md (Sinta 2-4, 2021-2025)
-│   └── 04_Persiapan_Lingkungan_Pengembangan.md
+│   ├── 03_Tabel_State_of_the_Art_10_Artikel.md
+│   ├── 04_Persiapan_Lingkungan_Pengembangan.md
+│   └── Tabel_State_of_the_Art_10_Artikel_Lengkap.docx
 ├── notebooks/
-│   └── klasifikasi_top5_liga.ipynb # Notebook interaktif
+│   └── klasifikasi_top5_liga.ipynb
 └── src/
-    ├── preprocess.py               # Module pra-pemrosesan data
-    └── train_eval.py               # Module eksperimen Random Forest + Bayesian Opt
+    ├── preprocess.py
+    └── train_eval.py
 ```
 
 ---
 
-## 🚀 Panduan Jalankan Proyek Lokal
+## 🚀 Cara Menjalankan Kode
 
-### 1. Aktivasi Environment
+### 1. Aktivasi Environment & Install Dependensi
 ```powershell
 .\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
 ```
 
-### 2. Menjalankan Kode Eksperimen
+### 2. Menjalankan Kode Ekserimen Klasifikasi
 ```powershell
-.\.venv\Scripts\python.exe src/train_eval.py
+python src/train_eval.py
 ```
 
-### 3. Menjalankan Notebook Interaktif
+### 3. Menjalankan Jupyter Notebook
 ```powershell
-.\.venv\Scripts\jupyter notebook notebooks/klasifikasi_top5_liga.ipynb
+jupyter notebook notebooks/klasifikasi_top5_liga.ipynb
 ```
