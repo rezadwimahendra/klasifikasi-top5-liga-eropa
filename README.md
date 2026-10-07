@@ -12,7 +12,7 @@ Repository ini dibuat untuk memenuhi tugas mata kuliah **Pemrograman Mobile Lanj
 ## 📌 Ringkasan 7 Poin Tugas
 
 1. **Mencari Dataset Public:** 
-   - Dataset pertandingan sepak bola Top 5 Liga Eropa musim 2025/2026 (`data top 5 liga.csv` - 1.752 baris, 22 atribut).
+   - Dataset pertandingan sepak bola Top 5 Liga Eropa musim 2025/2026 (`data/data_top_5_liga.csv` - 1.752 baris, 22 atribut).
 2. **Persiapan Lingkungan Pengembangan Lokal:** 
    - Konfigurasi Python 3.10, Virtual Environment (`.venv`), OpenCode / VS Code, Hermes CLI, Git, serta pustaka `pandas`, `scikit-learn`, `optuna`, `xgboost`, `jupyter`.
 3. **Menentukan Topik Penelitian:** 
@@ -34,7 +34,9 @@ Repository ini dibuat untuk memenuhi tugas mata kuliah **Pemrograman Mobile Lanj
 ├── .gitignore                      # Berkas pengecualian Git
 ├── README.md                       # Dokumentasi utama proyek & tugas
 ├── requirements.txt                # Berkas dependensi Python
-├── data top 5 liga.csv             # Dataset publik pertandingan Top 5 Liga Eropa
+├── data/
+│   ├── data_top_5_liga.csv         # Dataset publik pertandingan Top 5 Liga Eropa
+│   └── README.md                   # Dokumentasi variabel dataset
 ├── docs/
 │   ├── 01_Topik_dan_Judul_Penelitian.md
 │   ├── 02_Rumusan_Masalah_dan_Pertanyaan.md

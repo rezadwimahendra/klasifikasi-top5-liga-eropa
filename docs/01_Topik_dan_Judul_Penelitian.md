@@ -2,7 +2,7 @@
 
 ## 1. Dataset Public yang Digunakan
 - **Nama Dataset:** Top 5 European Football Leagues Match Statistics (Musim 2025/2026)
-- **File Dataset:** `data top 5 liga.csv`
+- **File Dataset:** `data/data_top_5_liga.csv`
 - **Sumber:** Open Public Sports Data Repository (Kaggle / Football-Data.co.uk)
 - **Ukuran & Sampel:** 1.752 baris pertandingan (Premier League, La Liga, Bundesliga, Serie A, Ligue 1)
 - **Atribut Utama (22 Kolom):**

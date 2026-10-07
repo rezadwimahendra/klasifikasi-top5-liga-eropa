@@ -1,13 +1,19 @@
+import os
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 
-def load_and_preprocess_football_data(filepath='data top 5 liga.csv', test_size=0.2, random_state=42):
+def load_and_preprocess_football_data(filepath='data/data_top_5_liga.csv', test_size=0.2, random_state=42):
     """
     Memuat dan membersihkan dataset pertandingan sepak bola Top 5 Liga Eropa Musim 2025/2026.
     Memisahkan fitur statistik pertandingan dan target FTR (Full Time Result).
     """
+    if not os.path.exists(filepath):
+        # Fallback if path is in root directory
+        if os.path.exists('data top 5 liga.csv'):
+            filepath = 'data top 5 liga.csv'
+
     # Read CSV with semicolon delimiter
     df = pd.read_csv(filepath, sep=';')
     
