@@ -1,10 +1,10 @@
-# Klasifikasi Hasil Pertandingan Top 5 Liga Eropa Menggunakan Random Forest Dengan Optimasi Hyperparameter Bayesian
+# Klasifikasi Hasil Pertandingan Top 5 Liga Eropa 2025/2026 Menggunakan Random Forest Dengan Optimasi Hyperparameter Bayesian
 
 Proyek ini melakukan **klasifikasi hasil pertandingan sepak bola** (*Home Win*, *Draw*, *Away Win*) pada Top 5 Liga Eropa (Premier League, La Liga, Bundesliga, Serie A, dan Ligue 1) musim 2025/2026 berdasarkan statistik pertandingan menggunakan algoritma **Random Forest** yang dioptimasi dengan **Optimasi Hyperparameter Bayesian (Optuna)**.
 
 ---
 
-## 📁 Struktur Folder Proyek
+##  Struktur Folder Proyek
 
 ```text
 klasifikasi-top5-liga-eropa/
@@ -28,7 +28,7 @@ klasifikasi-top5-liga-eropa/
 
 ---
 
-## 🚀 Cara Menjalankan Kode
+##  Cara Menjalankan Kode
 
 ### 1. Aktivasi Environment & Install Dependensi
 ```powershell
