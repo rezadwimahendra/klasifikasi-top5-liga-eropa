@@ -3,7 +3,7 @@
 [![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.3-orange.svg)](https://scikit-learn.org/)
 [![Optuna](https://img.shields.io/badge/Optuna-Bayesian%20Opt-blueviolet.svg)](https://optuna.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Sinta](https://img.shields.io/badge/Sinta%20SOTA-Akreditasi%20Sinta%202--4-green.svg)](docs/03_Tabel_State_of_the_Art_10_Artikel.md)
 
 Repository ini dibuat untuk memenuhi tugas mata kuliah **Pemrograman Mobile Lanjut / Klasifikasi**, yang mencakup 7 tahapan pengerjaan utama dari pencarian dataset hingga komit dan push ke GitHub.
 
@@ -21,8 +21,8 @@ Repository ini dibuat untuk memenuhi tugas mata kuliah **Pemrograman Mobile Lanj
    - *"Klasifikasi Hasil Pertandingan Top Lima Liga Eropa Musim 2025/2026 Berdasarkan Statistik Pertandingan Menggunakan Random Forest dengan Optimasi Hyperparameter Bayesian"*
 5. **Menentukan Pertanyaan Penelitian (Rumusan Masalah):** 
    - RQ1 (Kinerja Random Forest Baseline), RQ2 (Peningkatan Akurasi pasca Optimasi Bayesian), dan RQ3 (Fitur Statistik Match paling dominan / Feature Importance).
-6. **Studi Literatur 10 Artikel & Tabel Penelitian Terdahulu (State of the Art):** 
-   - Dokumentasi lengkap matriks perbandingan 10 artikel jurnal bereputasi pada berkas [`docs/03_Tabel_State_of_the_Art_10_Artikel.md`](docs/03_Tabel_State_of_the_Art_10_Artikel.md).
+6. **Studi Literatur 10 Artikel & Tabel Penelitian Terdahulu (State of the Art Sinta 2-4, 5 Tahun Terakhir):** 
+   - Dokumentasi lengkap matriks perbandingan 10 artikel jurnal bereputasi **terakreditasi Sinta (Sinta 2, 3, dan 4) kurun waktu 2021–2025** pada berkas [`docs/03_Tabel_State_of_the_Art_10_Artikel.md`](docs/03_Tabel_State_of_the_Art_10_Artikel.md).
 7. **Commit dan Push GitHub:** 
    - Pengelolaan repositori versi kontrol menggunakan Git.
 
@@ -38,7 +38,7 @@ Repository ini dibuat untuk memenuhi tugas mata kuliah **Pemrograman Mobile Lanj
 ├── docs/
 │   ├── 01_Topik_dan_Judul_Penelitian.md
 │   ├── 02_Rumusan_Masalah_dan_Pertanyaan.md
-│   ├── 03_Tabel_State_of_the_Art_10_Artikel.md
+│   ├── 03_Tabel_State_of_the_Art_10_Artikel.md (Sinta 2-4, 2021-2025)
 │   └── 04_Persiapan_Lingkungan_Pengembangan.md
 ├── notebooks/
 │   └── klasifikasi_top5_liga.ipynb # Notebook interaktif
