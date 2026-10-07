@@ -9,7 +9,7 @@ Pendekatan optimasi konvensional seperti *Grid Search* memerlukan waktu komputas
 
 ## 2. Pertanyaan Penelitian (*Research Questions*)
 
-- **RQ1:** Bagaimana performa metrik evaluasi (Akurasi, Presisi, Recall, F1-Score, dan ROC-AUC) dari algoritma **Random Forest Baseline** (tanpa optimasi) dalam mengklasifikasikan hasil pertandingan sepak bola Top 5 Liga Eropa?
+- **RQ1:** Bagaimana performa metrik evaluasi (Akurasi, Presisi, Recall, F1-Score, dan ROC-AUC) dari algoritma **Random Forest Baseline** (tanpa optimasi) dalam mengklasifikasikan hasil pertandingan sepak bola Lima Liga Top Eropa 2025/2026?
 - **RQ2:** Seberapa besar tingkat peningkatan kinerja klasifikasi yang diperoleh setelah menerapkan teknik **Optimasi Hyperparameter Bayesian** (*Bayesian Optimization*) pada algoritma Random Forest?
 - **RQ3:** Indikator statistik pertandingan manakah (*Feature Importance*) yang memberikan kontribusi paling dominan terhadap prediksi hasil akhir pertandingan?
 
@@ -17,7 +17,7 @@ Pendekatan optimasi konvensional seperti *Grid Search* memerlukan waktu komputas
 
 ## 3. Tujuan dan Manfaat Penelitian
 - **Tujuan:**
-  1. Membangun model klasifikasi *Random Forest* teroptimasi Bayesian untuk memprediksi hasil pertandingan Top 5 Liga Eropa.
+  1. Membangun model klasifikasi *Random Forest* teroptimasi Bayesian untuk memprediksi hasil pertandingan Lima Liga Top Eropa 2025/2026.
   2. Mengevaluasi perbandingan kuantitatif performa model sebelum dan sesudah optimasi Bayesian.
   3. Mengidentifikasi fitur statistik yang paling krusial dalam menentukan kemenangan tim.
 - **Manfaat:** Menjadi referensi akademis dalam penerapan algoritma *ensemble learning* teroptimasi Bayesian pada domain analisis olahraga (*sports analytics*).
