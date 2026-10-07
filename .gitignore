@@ -16,6 +16,7 @@ __pycache__/
 .vscode/
 .idea/
 
-# OS generated files
+# OS & Office generated files
 .DS_Store
 Thumbs.db
+~$*.docx
